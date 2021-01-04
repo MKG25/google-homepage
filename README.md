@@ -1,5 +1,5 @@
 # Google Homepage
 
-> Clone of the google homepage created with HTML & CSS.
+Google homepage clone created with HTML and CSS.
 
-[Live Demo](https://michalosman.github.io/google-homepage/)
+:point_right: [Live Demo](https://michalosman.github.io/google-homepage/)
