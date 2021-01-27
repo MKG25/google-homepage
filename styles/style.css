@@ -56,6 +56,7 @@ button:focus {
 /* NAV */
 
 .nav {
+  width: auto;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -215,4 +216,16 @@ button:focus {
 
 .footer-link:active {
   color: var(--footer-font-active);
+}
+
+/* Media queries */
+
+@media (max-width: 660px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .searchbar {
+    width: 80%;
+  }
 }
