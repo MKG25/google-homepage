@@ -1,7 +1,5 @@
-/* GENERAL */
 :root {
   --border-color: #ddd;
-  --hover-color: #444;
   --button-font-color: #666;
   --button-hover: #bbb;
   --button-border: rgb(239, 239, 239);
@@ -60,12 +58,9 @@ button:focus {
   font-size: 1.3rem;
 }
 
-.nav-element {
-  margin-right: 1.5rem;
-}
-
 .nav-link {
   opacity: 0.85;
+  margin-right: 1.5rem;
 }
 
 .nav-link:hover {
@@ -76,11 +71,10 @@ button:focus {
   height: 30px;
   width: 30px;
   background-image: url("//ssl.gstatic.com/gb/images/i1_1967ca6a.png");
-  background-size: 528px 68px;
   background-position: -132px -38px;
-  border: none;
   opacity: 0.5;
   background-color: #fff;
+  margin-right: 1.5rem;
 }
 
 .button-apps:hover {
@@ -89,15 +83,11 @@ button:focus {
 
 .button-sign-in {
   padding: 0.7rem 1rem;
-  color: white;
+  color: #fff;
   border-radius: 3px;
   font-weight: bold;
-  margin-right: 2rem;
-  background-image: -webkit-linear-gradient(
-    top,
-    rgb(67, 135, 253),
-    rgb(70, 131, 234)
-  );
+  background-color: rgb(69, 133, 244);
+  margin-right: 1.5rem;
 }
 
 .button-sign-in:hover {
@@ -106,26 +96,27 @@ button:focus {
 
 /* MAIN */
 
-.container {
+.main {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
   height: 80vh;
 }
 
-.logo-div {
-  padding: 2rem;
-}
-
-.form-div {
-  width: 100%;
+.logo {
+  width: 272px;
+  height: 92px;
+  margin-bottom: 5rem;
 }
 
 .form {
+  display: flex;
   flex-direction: column;
 }
 
 .search-section {
+  display: flex;
   justify-content: space-between;
   width: 560px;
   height: 4rem;

@@ -12,37 +12,32 @@
   </head>
   <body>
     <nav class="nav">
-      <a class="nav-element nav-link" href="#">Gmail</a>
-      <a class="nav-element nav-link" href="#">Images</a>
-      <button class="nav-element button-apps" href="#"></button>
-      <button class="nav-element button-sign-in">Sign In</button>
+      <a class="nav-link" href="#">Gmail</a>
+      <a class="nav-link" href="#">Images</a>
+      <button class="button-apps" href="#"></button>
+      <button class="button-sign-in">Sign In</button>
     </nav>
-    <main>
-      <div class="container">
-        <div class="logo-div">
-          <img src="images/google-logo.png" alt="" />
+    <main class="main">
+      <img class="logo" src="images/google-logo.png" alt="" />
+
+      <form class="form flexbox" action="">
+        <div class="search-section flexbox">
+          <div class="icon-search">
+            <i class="fas fa-search"></i>
+          </div>
+          <input class="input-search" type="text" />
+          <div class="icon-microphone">
+            <i class="fas fa-microphone"></i>
+          </div>
         </div>
-        <div class="form-div">
-          <form class="form flexbox" action="">
-            <div class="search-section flexbox">
-              <div class="icon-search">
-                <i class="fas fa-search"></i>
-              </div>
-              <input class="input-search" type="text" />
-              <div class="icon-microphone">
-                <i class="fas fa-microphone"></i>
-              </div>
-            </div>
-            <div class="buttons-section">
-              <input class="button" type="submit" value="Google Search" />
-              <input class="button" type="submit" value="I'm Feeling Lucky" />
-            </div>
-          </form>
+        <div class="buttons-section">
+          <input class="button" type="submit" value="Google Search" />
+          <input class="button" type="submit" value="I'm Feeling Lucky" />
         </div>
-        <div class="language-section">
-          Google offered in:
-          <a class="link" href="#">polski</a>
-        </div>
+      </form>
+      <div class="language-section">
+        Google offered in:
+        <a class="link" href="#">polski</a>
       </div>
     </main>
     <footer class="footer">
