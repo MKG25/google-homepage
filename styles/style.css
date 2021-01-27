@@ -228,4 +228,8 @@ button:focus {
   .searchbar {
     width: 80%;
   }
+
+  html {
+    font-size: 50%;
+  }
 }
