@@ -123,8 +123,9 @@ button:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 480px;
+  width: 580px;
   padding: 1rem;
+  padding-right: 1.5rem;
   border: 0.1px solid var(--border-color);
   border-radius: 30px;
 }
